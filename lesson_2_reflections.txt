@@ -7,14 +7,28 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	 Зона промежуточная буфер - зона подготовленных файлов она же staging area
+	 туда можно занести одни измененный файл, и закомитить это дело, при этом изменения
+	 могут быть в куче файлов на данный момент, вот и получаем некую буферную зону для
+	облегчения ведения рабочего процесса
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Короче вот у меня хочется несколко вариантов проекта, причем каждый со временем будет
+	меняться, напрмер файлы настройки я буду менять, вот тут то ветки приходят на помощь
+	что аж пиздец, охуенная тема
+
 How do the diagrams help you visualize the branch structure?
+	 Диаграмма помогает отслетидь как ветки пересекаются друг с другом, где есть общее начало
+	и вот это вот все
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Итак, результат сшивания двух веток это объединение кода, а так же добавление в лог всех коммитов из сшиваемых веток, в соответствии с их временем появления, диаграмма выглядит как в назад в будущее и это четко и понятко когда что появилось
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Да черт его знает, вообще как я видел мы пробуем сначало слить автоматом, а если не получается, то уже начинаем руками доделывать, так что без попыткы автоматом сшить не обходится ручная сшивка
